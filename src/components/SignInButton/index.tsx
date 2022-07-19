@@ -14,7 +14,10 @@ export function SignInButton() {
             type="button"
             onClick={() => signOut()}
         >
-                <FaGithub color="#52AACA"/>
+                <div
+                    className={styles.userPhoto}
+                    style={{backgroundImage: `url(${session.user.image})`}}>
+                </div>
                 {session.user.name}
                 <FiX
                 color="#7C8D88"
