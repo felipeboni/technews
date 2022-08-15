@@ -14,7 +14,6 @@ interface HomeProps {
 }
 
 export default function Home({ product }: HomeProps) {
-  console.log(product)
   return (
     <>
       <Head>
@@ -31,7 +30,7 @@ export default function Home({ product }: HomeProps) {
           <SubscribeButton priceId={product.priceId}/>
         </section>
 
-        <img src="/images/index_art.png" alt="Man with a VR surprised" />
+        {/* <img src="/images/index_art.png" alt="Man with a VR surprised" /> */}
       </main>
     </>
   )

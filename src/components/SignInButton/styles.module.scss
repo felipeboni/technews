@@ -1,6 +1,6 @@
 .userPhoto {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     background-size: cover;
     border-radius: 25px;
     margin-right: 1rem;
@@ -11,7 +11,7 @@
     border-radius: 3rem;
     background-color: var(--gray-200);
     border: 0;
-    padding: 0 1.5rem;
+    padding: 0 1rem 0 0.7rem;
 
     display: flex;
     align-items: center;
@@ -23,8 +23,8 @@
     transition: filter 0.2s;
 
     svg {
-        width: 20px;
-        height: 20px;
+        width: 15px;
+        height: 15px;
     }
 
     svg:first-child {
